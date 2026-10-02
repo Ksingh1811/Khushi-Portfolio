@@ -18,7 +18,7 @@ function Introduction() {
           New Technologies.
         </p>
        <a
-          href="/khushi_kumari_Fi.pdf"
+          href="/Khushi_Kumari.pdf"
           download="Khushi_Kumari_Resume.pdf"
           className="resume-btn"
         >

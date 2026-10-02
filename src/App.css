@@ -626,3 +626,184 @@ body{
 .resume-btn:hover {
     background: #1d4ed8;
 }
+
+@media (max-width: 768px) {
+
+    .intro,
+    .about,
+    .education,
+    .skills,
+    .experience,
+    .projects,
+    .certificate,
+    .contact {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .intro-left {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .intro-left h1 {
+        font-size: 40px;
+        line-height: 1.15;
+        word-break: normal;
+        overflow-wrap: break-word;
+    }
+
+    .intro-left p {
+        width: 100%;
+        max-width: 100%;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .intro-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .intro-right img {
+        width: 240px;
+        height: 240px;
+        max-width: 100%;
+    }
+
+    .about p {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .skills-container,
+    .experience-container,
+    .certificate-container {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+
+    .skill-card,
+    .experience-card,
+    .certificate-card,
+    .project-card {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .intro {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 100% !important;
+        padding: 50px 20px !important;
+        box-sizing: border-box;
+    }
+
+    .intro-left {
+        width: 100% !important;
+        max-width: 100% !important;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .intro-left h1 {
+        font-size: 40px;
+        line-height: 1.15;
+    }
+
+    .intro-left p {
+        width: 100% !important;
+        max-width: 100% !important;
+        line-height: 26px;
+    }
+
+    .intro-right {
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        box-sizing: border-box;
+    }
+
+    .intro-right img {
+        width: 240px !important;
+        height: 240px !important;
+        max-width: 240px !important;
+        object-fit: cover !important;
+        flex-shrink: 0 !important;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    /* ABOUT MOBILE FIX */
+    .about {
+        width: 100%;
+        padding: 60px 25px;
+        box-sizing: border-box;
+    }
+
+    .about h2 {
+        text-align: center;
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .about p {
+        width: 100% !important;
+        max-width: 100% !important;
+        text-align: left;
+        font-size: 17px;
+        line-height: 28px;
+        box-sizing: border-box;
+    }
+
+    @media (max-width: 768px) {
+
+    .experience {
+        width: 100%;
+        max-width: 100%;
+        padding: 60px 25px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .experience h2 {
+        text-align: center;
+        font-size: 36px;
+        line-height: 1.2;
+        margin-bottom: 40px;
+    }
+
+    .experience-container {
+        width: 100%;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .experience-card {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        padding: 25px;
+        box-sizing: border-box;
+    }
+
+    .experience-card h3,
+    .experience-card h4,
+    .experience-card span,
+    .experience-card li {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+}
